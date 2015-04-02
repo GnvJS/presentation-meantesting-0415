@@ -1,0 +1,9 @@
+# code coverage directories
+lib-cov
+coverage
+
+# node dependency directory
+node_modules
+
+# bower
+**bower_components/

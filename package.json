@@ -1,0 +1,37 @@
+{
+  "name": "GainesvilleJS-Presentation",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Testing your MEAN applications",
+  "keywords": [],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "karma": "*",
+    "mocha": "*",
+    "chai": "*",
+    "gulp-mocha": "*",
+    "gulp-util": "*",
+    "karma-mocha": "*",
+    "karma-chai": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-spec-reporter": "*"
+  },
+  "scripts": {
+    "start": "node server/app.js",
+    "postinstall": "bower cache clean && bower install"
+  },
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gnvjs/presentation-meantesting-0415.git"
+  },
+  "author": "Aaron Dixon",
+  "license": ""
+}
