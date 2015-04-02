@@ -1,6 +1,7 @@
 (function() {
   'use strict';
 
+  var fs = require('fs');
   var gulp = require('gulp');
   var karma = require('karma').server;
   var mocha = require('gulp-mocha');
